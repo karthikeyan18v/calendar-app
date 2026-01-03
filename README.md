@@ -48,3 +48,42 @@ A full-stack **multi-user calendar and appointment scheduling system** that allo
 
 ## 📁 Project Structure
 
+calendar-app/
+├── backend/ # Express + PostgreSQL API
+└── frontend/ # Next.js frontend with calendar UI
+---
+
+## ▶️ Running the Project Locally
+
+### Prerequisites
+- Node.js (v18+ recommended)
+- PostgreSQL
+
+---
+
+### 1️⃣ Backend Setup
+
+```bash
+cd backend
+npm install
+npm run dev
+Backend runs on:
+```
+Backend runs on:
+
+http://localhost:5000
+
+
+Make sure PostgreSQL is running and the database exists:
+
+CREATE DATABASE calendar_app;
+
+2️⃣ Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+
+Frontend runs on:
+
+http://localhost:3000
